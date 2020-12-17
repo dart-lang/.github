@@ -1,0 +1,11 @@
+{
+    "name": "Simple package testing workflow (dart-lang)",
+    "description": "Simple package testing workflow used in the dart-lang org",
+    "iconName": "dart",
+    "categories": [
+        "Dart"
+    ],
+    "filePatterns": [
+        "^pubspec.yaml$"
+    ]
+}
