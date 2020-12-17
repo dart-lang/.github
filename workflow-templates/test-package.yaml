@@ -72,4 +72,6 @@ jobs:
       - name: Install dependencies
         run: dart pub get
       - name: Run tests
-        run: dart test
+        run: dart test --platform vm
+      - name: Run tests
+        run: dart test --platform chrome
