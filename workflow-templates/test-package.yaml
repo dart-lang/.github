@@ -12,12 +12,13 @@ env:
 
 jobs:
   # Check code formatting and static analysis on a single OS (linux)
-  # against Dart stable and dev.
+  # against Dart dev.
   analyze:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        sdk: [dev, stable]
+        # Add stable if the package should also be tested on stable
+        sdk: [dev]
     steps:
       - uses: actions/checkout@v2
       - uses: dart-lang/setup-dart@v0.1
@@ -29,7 +30,7 @@ jobs:
         run: dart format --output=none --set-exit-if-changed .
       - name: Analyze code
         run: dart analyze
-        if: ${{ always() and steps.['Install dependencies'].outcome == 'success' }}
+        if: ${{ always() && steps['Install dependencies'].outcome == 'success' }}
 
   # Run tests on a matrix consisting of three dimensions:
   # 1. OS: ubuntu-latest, (macos-latest, windows-latest)
@@ -51,7 +52,7 @@ jobs:
           channel: ${{ matrix.sdk }}
       - name: Install dependencies
         run: dart pub get
-      - name: Run tests
+      - name: Run VM tests
         run: dart test --platform vm
-      - name: Run tests
+      - name: Run Chrome tests
         run: dart test --platform chrome
