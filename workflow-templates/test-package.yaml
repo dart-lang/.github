@@ -39,6 +39,7 @@ jobs:
         run: dart format --output=none --set-exit-if-changed .
       - name: Analyze code
         run: dart analyze
+        if: ${{ always() and steps.['Install dependencies'].outcome == 'success' }}
 
   # Run tests on a matrix consisting of three dimensions:
   # 1. OS: mac, windows, linux
