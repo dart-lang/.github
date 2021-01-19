@@ -23,9 +23,9 @@ jobs:
         sdk: [dev, stable]
     steps:
       - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@v0.1
+      - uses: dart-lang/setup-dart@v0.2
         with:
-          channel: ${{ matrix.sdk }}
+          sdk: ${{ matrix.sdk }}
       - id: install
         name: Install dependencies
         run: dart pub get
@@ -50,9 +50,9 @@ jobs:
         sdk: [dev, stable]
     steps:
       - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@v0.1
+      - uses: dart-lang/setup-dart@v0.2
         with:
-          channel: ${{ matrix.sdk }}
+          sdk: ${{ matrix.sdk }}
       - id: install
         name: Install dependencies
         run: dart pub get
