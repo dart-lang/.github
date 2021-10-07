@@ -4,7 +4,7 @@
 
 Dart is:
 
-  * **Optimized for UI**: Develop with a programming language specialized     
+  * **Optimized for UI**: Develop with a programming language specialized
     around the needs of user interface creation.
 
   * **Productive**: Make changes iteratively: use hot reload to see the result
