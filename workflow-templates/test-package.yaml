@@ -23,7 +23,7 @@ jobs:
         sdk: [dev, stable]
     steps:
       - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@v0.3
+      - uses: dart-lang/setup-dart@v1
         with:
           sdk: ${{ matrix.sdk }}
       - id: install
@@ -38,7 +38,7 @@ jobs:
 
   # Run tests on a matrix consisting of two dimensions:
   # 1. OS: ubuntu-latest, (macos-latest, windows-latest)
-  # 2. release channel: dev, stable
+  # 2. Release channel: dev, stable
   test:
     needs: analyze
     runs-on: ${{ matrix.os }}
@@ -50,7 +50,7 @@ jobs:
         sdk: [dev, stable]
     steps:
       - uses: actions/checkout@v2
-      - uses: dart-lang/setup-dart@v0.3
+      - uses: dart-lang/setup-dart@v1
         with:
           sdk: ${{ matrix.sdk }}
       - id: install
