@@ -1,4 +1,4 @@
-# Dart
+# Dart [![Twitter handle][]][Twitter badge]
 
 ## A client-optimized language for fast apps on any platform
 
@@ -62,3 +62,5 @@ To report potential vulnerabilities, please see our security policy on
 [api-beta]: https://api.dart.dev/beta
 [api-dev]: https://api.dart.dev/dev
 [api-be]: https://api.dart.dev/be
+[Twitter badge]: https://twitter.com/intent/follow?screen_name=dart_lang
+[Twitter handle]: https://img.shields.io/twitter/follow/dart_lang.svg?style=social&label=Follow
