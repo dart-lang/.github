@@ -23,7 +23,7 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
-### File headers
+## File headers
 All files in the project must start with the following header.
 
     // Copyright (c) 2022, the Dart project authors.  Please see the AUTHORS file
