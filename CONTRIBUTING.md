@@ -24,7 +24,8 @@ use GitHub pull requests for this purpose. Consult
 information on using pull requests.
 
 ## File headers
-All files in the project must start with the following header.
+
+All files in the project must start with the following header:
 
     // Copyright (c) 2022, the Dart project authors.  Please see the AUTHORS file
     // for details. All rights reserved. Use of this source code is governed by a
