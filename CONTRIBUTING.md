@@ -23,9 +23,20 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
+## Coding style
+
+The Dart source code in this repo follows the:
+
+  * [Dart style guide](https://dart.dev/guides/language/effective-dart/style)
+
+You should familiarize yourself with those guidelines.
+
 ## File headers
 
-All files in the project must start with the following header:
+All files in the Dart project must start with the following header. If you add a
+new file please also add this. The year should be a single number (not a range;
+don't use "2011-2012", even if the original code did). If you edit an existing
+file you don't have to update the year.
 
     // Copyright (c) 2022, the Dart project authors.  Please see the AUTHORS file
     // for details. All rights reserved. Use of this source code is governed by a
@@ -35,3 +46,6 @@ All files in the project must start with the following header:
 
 This project follows
 [Google's Open Source Community Guidelines](https://opensource.google/conduct/).
+
+We pledge to maintain an open and welcoming environment. For details, see our
+[code of conduct](https://dart.dev/code-of-conduct).
