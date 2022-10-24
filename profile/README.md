@@ -25,7 +25,7 @@ depending on your target platform and goals:
     development time compiler (dartdevc) and a production time compiler
     (dart2js).  
 
-![Dart platforms illustration](https://raw.githubusercontent.com/dart-lang/.github/master/assets/Dart-platforms.svg)
+<!-- ![Dart platforms illustration](https://raw.githubusercontent.com/dart-lang/.github/master/assets/Dart-platforms.svg) -->
 
 ## License & patents
 
