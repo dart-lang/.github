@@ -1,0 +1,8 @@
+{
+    "name": "Package publishing workflow (dart-lang)",
+    "description": "A workflow to automate publishing pub packages",
+    "iconName": "dart",
+    "categories": [
+        "Dart"
+    ]
+}

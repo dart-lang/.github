@@ -1,6 +1,6 @@
 {
-    "name": "Simple package testing workflow (dart-lang)",
-    "description": "Simple package testing workflow used in the dart-lang org",
+    "name": "Package testing workflow (dart-lang)",
+    "description": "A simple package testing workflow used in the dart-lang org",
     "iconName": "dart",
     "categories": [
         "Dart"
