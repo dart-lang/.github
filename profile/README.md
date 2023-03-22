@@ -47,13 +47,14 @@ the stable release. (We also publish docs from our [beta][api-beta] and
 branch][api-be]).
 
 ## Security & reporting vulnerabilities
+
 To report potential vulnerabilities, please see our security policy on
 [https://dart.dev/security](https://dart.dev/security).
 
 [website]: https://dart.dev
 [license]: https://github.com/dart-lang/sdk/blob/main/LICENSE
 [repo]: https://github.com/dart-lang/sdk
-[lang]: https://dart.dev/guides/language/language-tour
+[lang]: https://dart.dev/language
 [tools]: https://dart.dev/tools
 [codelabs]: https://dart.dev/codelabs
 [pubsite]: https://pub.dev
