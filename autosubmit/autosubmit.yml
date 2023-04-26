@@ -10,8 +10,8 @@ approving_reviews: 2
 approval_group: dart-team
 run_ci: true
 support_no_review_revert: true
-required_checkruns:
-  - "cla/google"
-  - "analyze (dev)"
-  - "test (ubuntu-latest, 2.18.0)"
-  - "test (ubuntu-latest, dev)"
+required_checkruns_on_revert:
+  - cla/google
+  - analyze (dev)
+  - test (ubuntu-latest, 2.18.0)
+  - test (ubuntu-latest, dev)
