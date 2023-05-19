@@ -1,4 +1,4 @@
-*Thanks for your contribution! Please replace this paragraph with a description of what this PR is changing or adding and why. List any relevant issues, and review the contribution guidelines below.*
+- Thanks for your contribution! Please replace this bullet-point with a description of what this PR is changing or adding and why; list any relevant issues, and review the contribution guidelines below
 
 ---
 
@@ -12,6 +12,4 @@
 - Most changes should add an entry to the changelog and may need to [rev the pubspec package version](https://github.com/dart-lang/sdk/wiki/External-Package-Maintenance#making-a-change).
 - Changes to packages require [corresponding tests](https://github.com/dart-lang/.github/blob/main/CONTRIBUTING.md#Testing).
 
-Many Dart repos have a weekly cadence for reviewing PRs - please allow for a week or two of latency for initial review feedback.
-
----
+(note that many Dart repos have a weekly cadence for reviewing PRs - please allow for some latency before initial review feedback)
