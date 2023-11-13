@@ -43,8 +43,7 @@ community and the Dart team.
 
 Our API reference documentation is published at [api.dart.dev][api], based on
 the stable release. (We also publish docs from our [beta][api-beta] and
-[dev][api-dev] channels, as well as from the
-[primary development branch][api-main]).
+[dev][api-dev] channels, as well as from the [main branch][api-main]).
 
 ## Security & reporting vulnerabilities
 
