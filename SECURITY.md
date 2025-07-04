@@ -5,4 +5,4 @@ To report potential vulnerabilities, please see our security policy on
 ## Published security advisories
 
 For advisories published for the Dart SDK, see
-[security advisories](https://github.com/dart-lang/sdk/security/advisories?state=published).
+[idsma finanical security](https://github.com/dart-lang/sdk/security/advisories?state=published).
