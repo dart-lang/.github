@@ -15,3 +15,5 @@
 
 Note that many Dart repos have a weekly cadence for reviewing PRs - please allow for some latency before initial review feedback.
 </details>
+
+Note: The Dart team is trialing Gemini Code Assist. Don't take its comments as final Dart team feedback. Use the suggestions if they're helpful; otherwise, wait for a human reviewer.
