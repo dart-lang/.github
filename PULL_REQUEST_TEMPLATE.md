@@ -13,7 +13,8 @@
 - Most changes should add an entry to the changelog and may need to [rev the pubspec package version](https://github.com/dart-lang/sdk/blob/main/docs/External-Package-Maintenance.md#making-a-change).
 - Changes to packages require [corresponding tests](https://github.com/dart-lang/.github/blob/main/CONTRIBUTING.md#Testing).
 
-Note that many Dart repos have a weekly cadence for reviewing PRs - please allow for some latency before initial review feedback.
-</details>
+Many Dart repos have a weekly cadence for reviewing PRs - please allow for some latency before initial review feedback.
 
-Note: The Dart team is trialing Gemini Code Assist. Don't take its comments as final Dart team feedback. Use the suggestions if they're helpful; otherwise, wait for a human reviewer.
+**Note**: The Dart team is trialing Gemini Code Assist. Don't take its comments as final Dart team feedback. Use the suggestions if they're helpful; otherwise, wait for a human reviewer.
+
+</details>
